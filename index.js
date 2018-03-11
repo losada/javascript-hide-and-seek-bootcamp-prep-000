@@ -13,11 +13,11 @@ function increaseRankBy(n){
   }
 }
 
-function deepestChild() {
-  var lis=document.getElementById("grand-node").querySelectorAll("div");
-  var test;
-  for(let i=0;i<lis.length-1;i++) {
-    test=lis[i].querySelector("div");
+function deepestChild(){
+  var lis = document.getElementById("grand-node").querySelectorAll("div");
+  var child;
+  for(let i=0; i < lis.length; i++){
+    child=lis[i].querySelector("div");
   }
-return test;
+  return child;
 }
