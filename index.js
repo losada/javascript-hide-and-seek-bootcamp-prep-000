@@ -14,10 +14,10 @@ function increaseRankBy(n){
 }
 
 function deepestChild() {
-  var lis=document.getElementById("grand-node").querySelectorAll("div");
+  var list=document.getElementById("grand-node").querySelectorAll("div");
   var child=[];
-  for(let i=0;i<lis.length-1;i++) {
-    child=lis[i].querySelector("div");
+  for(let i=0;i<list.length-1;i++) {
+    child=list[i].querySelector("div");
   }
 return child;
 }
