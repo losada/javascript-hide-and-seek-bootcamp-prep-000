@@ -16,7 +16,7 @@ function deepestChild(){
   var list = document.getElementById("grand-node").querySelectorAll("div");
   var child = [];
   for(let i=0; i < child.length; i++){
-    child=list[i].querySelector("div")
+    child=list[i].querySelector("div");
   }
   return child;
 }
